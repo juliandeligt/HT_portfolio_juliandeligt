@@ -1,0 +1,652 @@
+/*hompagina*/
+/*hero-sectie homepagina*/
+.hero {
+    width: 100%;
+    background: url("../images/homebanner.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero ::after {
+    content: "";
+    position: absolute;
+    bottom: -2rem;
+    left: 0;
+    width: 100%;
+    height: 23%;
+    background: #FFF7F7;
+    clip-path: polygon(0 0,0 100%,100% 100%,100% 75%);
+  }
+
+.hero h1 {
+    font-size: 8rem;
+    font-weight: bold;
+}
+
+.hero h2 {
+    font-size: 6.8rem;
+    font-weight: 400;
+}
+
+/*tekst in het groene vlak in de hero-sectie*/
+  .herotekst {
+      background-color: #46CD24;
+      height: 40rem;
+      margin-top: 25rem;
+      width: 64%;
+      border-top-right-radius: 1.2rem;
+      border-bottom-right-radius: 1.2rem;
+      padding-top: 12rem;
+      padding-left: 60rem;
+  }
+  
+  /*over mij gedeelte*/
+  .overmij {
+      height: 109rem;
+      background-color: #FFF7F7;
+  }
+
+  /*foto van mezelf*/
+  .julian img {
+      margin-left: 26rem;
+      margin-top: 17rem;
+      border: 0.7rem solid #46CD24; 
+      z-index: 5;
+      position: relative;
+  }
+
+  /*schuine rechthoek achter mijn foto*/
+  .fotoachtergrond {
+    width: 38.3rem;
+    height: 50rem;
+    background-color: #74D95B;
+    position: absolute;
+    top: 138rem;
+    left: 26rem;
+    transform: rotate(5deg);
+    z-index: 0;
+    content: "";
+  }
+
+  /*tekst bij over mij gedeelte*/
+  .overmij h3 , .vaardigheden h3, .projecten h3, .contact h3 {
+    margin-top: 15rem;
+    margin-left: 41rem;
+  }
+
+  .overmij p {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: regular;
+    line-height: 5.5rem;
+    margin-left: 73rem;
+    margin-top: -52rem;
+  }
+
+  .hover {
+    margin-top: 57rem;
+    margin-left: -9rem;
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+  }
+
+  /*vaardigheden gedeelte*/
+  .vaardighedencontent {
+      background-color: #E0F7DB;
+      height: 71rem;
+      width: 100%;
+      padding-top: 9rem;
+  }
+
+  .vaardigheden img {
+    border: 0.4rem solid #2E8D31;
+    border-radius: 100%;
+    margin-left: 34rem;
+  }
+
+  .vaardigheden p {
+    font-size: 2.1rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .vaardigheden h3 {
+    margin-bottom: 10rem;
+  }
+
+  .vaardigheden h4 {
+    font-size: 2.7rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .nederlands, .htmlcss, .javascript {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    column-gap: 19rem;
+    margin-left: -9rem;
+  }
+
+  /*percentagebalken*/
+  .balk {
+    width: 58rem;
+    height: 6.3rem;
+    background-color: white;
+    border-radius: 38px;
+    position: absolute;
+    left: 105rem;
+    box-shadow: 0.2rem 0.2rem 0.4rem grey;
+  }
+
+  .balknederlands {
+    width: 49.3rem;
+    height: 6.3rem;
+    margin-left: -3.1rem;
+    position: relative;
+    background-color: #74D95B;
+    border-radius: 38rem;
+  }
+
+  .balknederlands p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-top: 1.5rem;
+    padding-left: 42rem;
+  }
+
+  .balkhtmlcss {
+    width: 46.4rem;
+    height: 6.3rem;
+    margin-left: -0.6rem;
+    position: relative;
+    background-color: #74D95B;
+    border-radius: 38rem;
+  }
+
+  .balkhtmlcss p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-top: 1.5rem;
+    padding-left: 39.1rem;
+  }
+
+  .balkjavascript {
+    width: 23.2rem;
+    height: 6.3rem;
+    margin-left: -13.9rem;
+    position: relative;
+    background-color: #74D95B;
+    border-radius: 38rem;
+  }
+
+  .balkjavascript p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-top: 1.5rem;
+    padding-left: 15.7rem;
+  }
+
+  .htmlcss, .javascript{
+    margin-top: 5rem;
+  }
+
+  /*quote*/
+  .quote {
+    background-color: #46CD24;
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 2.2rem;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 5.6rem;
+    margin-top: 12rem;
+    padding-top: 1.2rem;
+  }
+
+  /*Projectgedeelte*/
+  .projecten h3 {
+    margin-bottom: 10rem;
+  }
+
+  .projectengedeelte {
+    margin-top: 10rem;
+    height: 85rem;
+    background-color: #DAF3D3;
+    margin-left: -8rem;
+    width: calc(100% + 15rem);
+    content: "";
+    transform: rotate(-7deg);
+    overflow: hidden;
+  }
+
+  .projectenoverzicht {
+    content: "";
+    margin-left: 60rem;
+    margin-top: 26rem;
+  }
+
+  .projecten p {
+    transform: rotate(-7deg);
+    margin-left: 105rem;
+    margin-top: -4.5rem;
+    font-size: 3.5rem;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /*link naar projectpagina (tijdelijk!)*/
+  .projectlink {
+    margin-top: -9rem;
+  }
+  .projectlink a{
+    position: relative;
+    left: -90rem;
+    top: 12rem;
+    color: black;
+  }
+
+  .projectlink a:hover {
+    color: #30A534;
+    transition: all 0.3s ease;
+  }
+
+  /*schuin vlak achter project*/
+  .achtergrondproject {
+    content: "";
+    width: 96rem;
+    height: 58rem;
+    background-color: #46CD24;
+    transform: rotate(-1deg);
+    z-index: -2;
+    position: absolute;
+    left: 27%;
+  }
+
+  /*slideshow projecten*/
+  .carousel-container {
+    width: 96rem;
+    margin: auto;
+    overflow: hidden;
+    transform: rotate(7deg);
+    margin-top: 13rem;
+  }
+
+  .carousel-slide {
+    display: flex;
+    width: 100%;
+    height: 58rem;
+  }
+
+  .prevBtn {
+    position: absolute;
+    top: 416rem;
+    left: 21rem;
+    cursor: pointer;
+  }
+
+  .nextBtn {
+    position: absolute;
+    top: 416rem;
+    left: 161rem;
+    cursor: pointer;
+  }
+
+  /*contactgedeelte*/
+  .contact {
+    margin-top: 36rem;
+    height: 130rem;
+  }
+
+  .contact p {
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    margin-top: 8rem;
+    margin-left: 40rem;
+  }
+
+  /*formulier contact*/
+  .contactformulier {
+    margin-top: 10rem;
+    margin-left: 40rem;
+  }
+
+  .formrow1 input, .formrow2 input, .formrow3 input {
+    background-color: #EBFAE8;
+    border: 0.3rem solid #46CD24;
+    border-radius: 0.6rem;
+    font-size: 2rem;
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    padding-left: 2rem;
+    color: black;
+  }
+
+  .formrow1 input {
+    width: 41rem;
+    height: 5rem;
+  }
+
+  .formrow2 input {
+    width: 54rem;
+    height: 5rem;
+  }
+
+  .formrow3 input {
+    width: 88rem;
+    height: 23rem;
+    padding-bottom: 17.5rem;
+  }
+
+  .formrow1, .formrow2, .formrow3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    column-gap: 6rem;
+    margin-bottom: 4rem;
+  } 
+
+  button {
+    width: 20rem;
+    height: 6rem;
+    background-color: #28AF2D;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 30rem;
+    box-shadow: 0.2rem 0.2rem 0.6rem grey;
+  }
+
+  button:hover {
+    background-color: #FFFFFF;
+    color: black;
+    font-size: 2rem;
+    border: 0.3rem solid #28AF2D;
+    transition: all 0.3s ease;
+  }
+
+  .hover img {  
+    position: absolute;
+    top: 193rem;
+    left: 55rem;
+  }
+
+  /*projectpagina*/
+  /*hero-sectie projectpagina*/
+  .heroproject {
+    width: 100%;
+    background: url("../images/heroproject.jpeg");
+    height: 45vh;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  /*button naar volgend project*/
+  .volgendproject button {
+    width: 38rem;
+    height: 7.7rem;
+    font-size: 2.1rem;
+    display: flex;
+    margin-left: 140rem;
+    margin-top: -4rem;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+    margin-bottom: -3rem;
+  }
+
+  .volgendproject2 button {
+    width: 38rem;
+    height: 7.7rem;
+    font-size: 2.5rem;
+    display: flex;
+    margin-left: 140rem;
+    margin-top: -4rem;
+    justify-content: center;
+    align-items: center;
+    column-gap: 12rem;
+    margin-bottom: -3rem;
+  }
+
+  .volgendproject button img {
+    width: 4rem;
+    transform: rotate(-90deg);
+  }
+
+  .volgendproject2 button img {
+    width: 4rem;
+    transform: rotate(-90deg);
+  }
+
+  /*tekst in groen vlak in hero-sectie projectpagina*/
+  .heroprojecttekst {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    background: #46CD24;
+    width: 55%;
+    border-top-right-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+    height: 17rem;
+    margin-top: 16.7rem;
+    padding-left: 30rem;
+    padding-top: 3.5rem;
+    font-weight: bold;
+  }
+
+  /*informatie over de projecten*/
+  .projectinfo {
+    margin-top: 14rem;
+    margin-left: 37rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.6rem;
+    font-weight: 400;
+    line-height: 3.9rem;
+  }
+
+  .projectinfo a {
+    color: #46CD24;
+  }
+
+  .projectinfo a:hover {
+    color: #28AF2D;
+    transition: all 0.3s ease;
+  }
+
+  .projectinfo h1 {
+    margin-bottom: -5rem;
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+
+  /*slideshow van de foto's*/
+  .slider {
+    height: 100%;
+    width: 98rem;
+    overflow: hidden;
+    margin-left: 45rem;
+    margin-top: 10rem;
+    padding-top: 12rem;
+    transform: rotate(6deg);
+  }
+
+  .slides {
+    width: 500%;
+    height: 58rem;
+    display: flex;
+  }
+
+  .slides input {
+    display: none;
+  }
+
+  .slide {
+    width: 20%;
+    transition: 0.7s;
+  }
+
+  .slide img {
+    width: 98rem;
+    height: 58rem;
+  }
+
+  /*navigatie door de foto's (stipjes onderaan)*/
+  .navigation-manual {
+    position: absolute;
+    width: 98rem;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    transform: rotate(0deg);
+    z-index: 2;
+  }
+
+  .manual-btn {
+    border: 2px solid #34563C;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+
+  .manual-btn:not(:last-child) {
+    margin-right: 40px;
+  }
+
+  .manual-btn:hover {
+    background-color: #2E8D31;
+  }
+
+  #radio1:checked ~ .first{
+    margin-left: 0;
+    background-color: #2E8D31;
+  }
+  #radio2:checked ~ .first{
+    margin-left: -20%;
+    background-color: #2E8D31;
+  }
+  #radio3:checked ~ .first{
+    margin-left: -40%;
+    background-color: #2E8D31;
+  }
+  #radio4:checked ~ .first{
+    margin-left: -60%;
+    background-color: #2E8D31;
+  }
+  #radio5:checked ~ .first{
+    margin-left: -80%;
+    background-color: #2E8D31;
+  }
+
+  .projectfotos h1 {
+    margin-top: 20rem;
+    margin-left: 54rem;
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+  }
+
+  .projectcontent {
+    background-color: #E0F7DB;
+    transform: rotate(-6deg);
+    height: 85rem;
+    width: calc(100% + 15rem); 
+    margin-left: -8rem;
+    padding-left: 12rem;
+  }
+
+  /*link naar contactgedeelte onderaan de pagina*/
+  .contactvraag {
+    margin-top: 40rem;
+    background-color: #DAF3D3;
+    font-size: 2.9rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    width: 49%;
+    height: 19rem;
+    margin-bottom: 40rem;
+    display: flex;
+    justify-content: center;
+    border: 0.7rem solid #46CD24;
+    margin-left: 50rem;
+    padding-top: 6.5rem;
+    column-gap: 15rem;
+  }
+
+  /*schuin vlak achter link van contact*/
+  .achtergrondcontact {
+    position: absolute;
+    height: 19rem;
+    width: 50%;
+    transform: rotate(-4deg);
+    background-color: #74D95B;
+    margin-top: -5.8rem;
+    z-index: -1;
+  }
+
+  .contactvraag button {
+    width: 22rem;
+    height: 6.3rem;
+    background-color: #30A534;
+    margin-top: -1rem;
+    font-size: 2rem;
+  }
+
+  .contactvraag button:hover {
+    background-color: white;
+    border: 0.4rem solid #30A534;
+  }
+
+  .heroprojecttekst2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    background: #46CD24;
+    width: 55%;
+    border-top-right-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+    height: 17rem;
+    margin-top: 16.7rem;
+    padding-left: 60rem;
+    padding-top: 3.5rem;
+    font-weight: bold;
+  }
+
+  .heroprojecttekst3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.5rem;
+    background: #46CD24;
+    width: 55%;
+    border-top-right-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+    height: 17rem;
+    margin-top: 16.7rem;
+    padding-left: 22rem;
+    padding-top: 4rem;
+    font-weight: bold;
+  }
+
+  .ikbijproject {
+    margin-left: 50rem;
+    margin-top: -56rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }

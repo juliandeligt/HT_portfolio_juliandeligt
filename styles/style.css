@@ -1,0 +1,8 @@
+/*Import css bestanden*/
+@import "globals.css";
+@import "nav_footer.css";
+@import "portfolio.css";
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap');
